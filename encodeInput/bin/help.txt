@@ -1,0 +1,18 @@
+************************************
+             HELP FILE
+************************************
+
+Proper usage: encodeInput <switches> ...
+
+Valid Switches: 
+-srec = print the record in s-record format
+-i<inputfilename> = use the specified file as input
+-o<outputfilename> = print record to specified output file
+-h = help
+
+Keep in Mind:
+-If no "-srec" switch is provided, assumes assembly format
+-If no input file is specified, assumes input from stdin
+-If output file is specified, output is printed to file
+-If no output file is specified but input is specified, it will create a file with the same name
+-If no output file is specified and no input file is specified, it will use stdout
